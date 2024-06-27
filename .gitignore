@@ -1,0 +1,6 @@
+.project.json
+.vscode
+configs/*
+!configs/sample.json
+dist
+**/**.exe

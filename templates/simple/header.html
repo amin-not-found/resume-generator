@@ -1,0 +1,4 @@
+<header>{{.Name}}</header>
+{{with .ContactInfos}}
+{{ template "contact_info.html" . }}
+{{end}}

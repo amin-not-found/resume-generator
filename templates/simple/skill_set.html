@@ -1,0 +1,5 @@
+<div class="skillset">
+    <b>{{.Name}}: </b>
+
+    {{range $index, $skill := .Skills}}{{if $index}}・{{end}}{{$skill.Name}}{{end}}
+</div>

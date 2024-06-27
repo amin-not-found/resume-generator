@@ -1,0 +1,26 @@
+<div class="association">
+    <div class="space-between">
+        
+        {{with .URL}}
+        <a href="{{.}}">
+            <h4> {{$.Title}} </h4>
+        </a>
+        {{else}}
+        <h4> {{.Title}} </h4>
+        {{end}}
+        <p> {{.Where}} </p>
+    </div>
+
+    <div class="space-between">
+        <p> {{.Description}} </p>
+        <p> {{.Period}} </p>
+    </div>
+
+    {{with .Points}}
+    <ul>
+        {{range .}}
+        <li>{{.}}</li>
+        {{end}}
+    </ul>
+    {{end}}
+</div>

@@ -1,0 +1,145 @@
+{
+    "Name": "Amin",
+    "Summary": {
+        "Text": "I'm a newly graduated healer trying to fit in the big world of magic and dungeons",
+        "Points": [
+            "Great understanding of healing magic",
+            "Basic close range fighting ability"
+        ]
+    },
+    "ContactInfos": [
+        {
+            "Display": "Healer",
+            "URL": "https://en.wikipedia.org/wiki/Healer_(video_games)",
+            "Icon": "fa-brands fa-wikipedia-w",
+            "IconColor": "#000000"
+        },
+        {
+            "Display": "Linkedin",
+            "URL": "#",
+            "Icon": "fa-brands fa-linkedin",
+            "IconColor": "#0077b5"
+        },
+        {
+            "Display": "Neverland",
+            "URL": "",
+            "Icon": "fa-solid fa-location-dot",
+            "IconColor": "#e22328"
+        }
+    ],
+    "Experiences": [
+        {
+            "Title": "Guild Healer",
+            "Description": "Healing comrades in times of need",
+            "Where": "All Star Guild",
+            "Period": "Since 2024",
+            "URL": "",
+            "Points": null
+        }
+    ],
+    "Educations": [
+        {
+            "Title": "Advanced healing spells",
+            "Description": "master's degree",
+            "Where": "THE Magic University",
+            "Period": "2020 - 2024",
+            "URL": "",
+            "Points": [
+                "Taught by the biggest pioneers in healing magic researching",
+                "Learned to heal during light combat"
+            ]
+        },
+        {
+            "Title": "Basic Magic Casting",
+            "Description": "bachelor's degree",
+            "Where": "Local magic school",
+            "Period": "2013 - 2019",
+            "URL": "",
+            "Points": null
+        }
+    ],
+    "SkillSets": [
+        {
+            "Name": "Spells",
+            "Skills": [
+                {
+                    "Name": "Divine healing",
+                    "Description": ""
+                },
+                {
+                    "Name": "Restoration",
+                    "Description": ""
+                },
+                {
+                    "Name": "Mass Healing",
+                    "Description": ""
+                },
+                {
+                    "Name": "Cure Wounds",
+                    "Description": ""
+                },
+                {
+                    "Name": "Basic Combat",
+                    "Description": ""
+                }
+            ]
+        },
+        {
+            "Name": "Soft skills",
+            "Skills": [
+                {
+                    "Name": "Teamwork",
+                    "Description": ""
+                },
+                {
+                    "Name": "Creativity",
+                    "Description": ""
+                }
+            ]
+        }
+    ],
+    "Projects": [
+        {
+            "Name": "100 square meter healing magic circle",
+            "Description": "Wide usage of Mass Healing by the means of a sophisticated magic circle",
+            "URL": "https://github.com",
+            "Period": "",
+            "Points": null,
+            "Tags": [
+                "Mass Healing",
+                "Magic Circle"
+            ]
+        },
+        {
+            "Name": "Love Potion",
+            "Description": "My attempt at making a permanent love potion",
+            "URL": "https://en.wikipedia.org/wiki/Love_potion",
+            "Period": "",
+            "Points": null,
+            "Tags": [
+                "Permanent love",
+                "Potion craft"
+            ]
+        }
+    ],
+    "Certifications": [
+        {
+            "Title": "Potion Craft",
+            "Description": "",
+            "Where": "PotionMastery Academy",
+            "Period": "",
+            "URL": "#",
+            "Points": null
+        }
+    ],
+    "Headers": {
+        "Experience": "Experientia",
+        "Education": "Educatione",
+        "Projects": "Crafts",
+        "Certifications": "Certificaciones"
+    },
+    "Font": {
+        "FontFamily": "Papyrus, serif"
+    },
+    "RTL": false
+}

@@ -1,0 +1,28 @@
+<div class="project">
+    {{with.URL}}
+    <a href="{{.}}">
+        <h4> {{$.Name}} </h4>
+    </a>
+    {{else}}
+    <h4> {{.Name}} </h4>
+    {{end}}
+
+    {{with .Tags}}
+    <small class="project-tags">
+        {{range $index, $tag := .}}{{if $index}}・{{end}}{{$tag}}{{end}}
+    </small>
+    {{end}}
+    
+    <div class="space-between">
+        <p> {{.Description}} </p>
+        <p> {{.Period}} </p>
+    </div>
+
+    {{with .Points}}
+    <ul>
+        {{range .}}
+        <li>{{.}}</li>
+        {{end}}
+    </ul>
+    {{end}}
+</div>
