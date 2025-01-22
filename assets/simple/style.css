@@ -18,7 +18,7 @@ p {
 
 a:link,
 a:visited {
-    color: blue;
+    color: rgb(0, 0, 240);
 }
 
 a:link[href=""],

@@ -1,15 +1,16 @@
 <div id="contact-info-container">
     {{range $_,$info := .}}
-    {{with .URL}}
-    <a class="contact-info" href="{{.}}">
+    <span class="contact-info">
+        <wbr/>
+
         <i class="{{$info.Icon}}" style="color: {{$info.IconColor}}"></i>
+        {{with .URL}}
+        <a href="{{.}}">
+            {{$info.Display}}
+        </a>
+        {{else}}
         {{$info.Display}}
-    </a>
-    {{else}}
-    <span class="contact-info" href="">
-        <i class="{{$info.Icon}}" style="color: {{$info.IconColor}}"></i>
-        {{$info.Display}}
+        {{end}}
     </span>
-    {{end}}
     {{end}}
 </div>
