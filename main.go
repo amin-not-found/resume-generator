@@ -10,9 +10,9 @@ import (
 
 type ContactInfo struct {
 	Display   string
-	URL       string
+	URL       template.URL
 	Icon      string
-	IconColor string
+	IconColor template.CSS
 }
 
 type Association struct {
@@ -20,7 +20,7 @@ type Association struct {
 	Description string
 	Where       string
 	Period      string
-	URL         string
+	URL         template.URL
 	Points      []string
 	// TODO tags?
 }
@@ -38,7 +38,7 @@ type SkillSet struct {
 type Project struct {
 	Name        string
 	Description string
-	URL         string
+	URL         template.URL
 	Period      string
 	Points      []string
 	Tags        []string
@@ -50,8 +50,8 @@ type Summary struct {
 }
 
 type Font struct {
-	FontFamily string
-	FontPath   string
+	FontFamily template.CSS
+	FontPath   template.URL
 }
 
 type Headers struct {
